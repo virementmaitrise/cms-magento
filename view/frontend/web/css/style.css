@@ -1,0 +1,254 @@
+:root {
+    --success-bg-color: #D2F2D7;
+    --info-bg-color: #D7E9FF;
+    --warning-bg-color: #F8E6D2;
+    --danger-bg-color: #F8D5D4;
+}
+
+.fintecture-alert {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 20px;
+    padding: 16px;
+}
+
+.fintecture-alert p {
+    margin: 0 !important;
+    color: #141414;
+    line-height: 1.1em;
+    word-break: break-word;
+}
+
+.fintecture-alert p a {
+    color: #141414;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.fintecture-alert p a:hover {
+    text-decoration: none;
+}
+
+.fintecture-alert.fintecture-alert-success {
+    background-color: var(--success-bg-color);
+}
+
+.fintecture-alert.fintecture-alert-info {
+    background-color: var(--info-bg-color);
+}
+
+.fintecture-alert.fintecture-alert-warning {
+    background-color: var(--warning-bg-color);
+}
+
+.fintecture-alert.fintecture-alert-danger {
+    background-color: var(--danger-bg-color);
+}
+
+.fintecture-alert img {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.checkout_block {
+    margin-bottom: 40px;
+}
+
+.checkout_block p {
+    color: #0B1643;
+    font-size: 15px;
+}
+
+.f-description {
+    margin-bottom: 20px;
+}
+
+#f-howto {
+    font-style: italic;
+}
+
+#f-steps {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#f-steps::before {
+    z-index: -1;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #C4C4C4;
+    transform: translateX(-50%);
+}
+
+#f-steps .f-step-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    width: 25%;
+    text-align: center;
+}
+
+.f-step-wrapper p {
+    margin-bottom: 0;
+}
+
+#f-steps .f-step-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 36px;
+    width: 36px;
+    background-size: cover;
+}
+
+#f-steps .f-step-1-icon {
+    background-image: url('../images/step1.svg');
+}
+
+#f-steps .f-step-2-icon {
+    background-image: url('../images/step2.svg');
+}
+
+#f-steps .f-step-3-icon {
+    background-image: url('../images/step3.svg');
+}
+
+#f-steps .f-step-4-icon {
+    background-image: url('../images/step4.svg');
+}
+
+#f-steps .f-step-img {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+
+#f-steps .f-step-1-img {
+    background-image: url('https://assets.fintecture.com/img/new-checkout/magento/banks-select-your-bank.gif');
+}
+
+#f-steps .f-step-2-img {
+    background-image: url('../images/login-step2.svg');
+}
+
+#f-steps .f-step-3-img {
+    background-image: url('../images/payment-step3.svg');
+}
+
+#f-steps .f-step-4-img {
+    background-image: url('../images/confirm-step4.svg');
+}
+
+#f-steps .f-steps-titles {
+    text-align: center;
+}
+
+#f-steps .f-steps-titles p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 25%;
+}
+
+#bnpl-box {
+    display: block;
+    width: 95%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.bnpl-head,
+.bnpl-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bnpl-head span {
+    font-weight: bold;
+}
+
+.fintecture-badge {
+    background-color: #2a45a7;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 13px;
+    color: #FFF;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.checkout-index-index .payment-method .payment-method-title label.label.img_label:after {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    height: 22.1px;
+    width: 104px;
+    margin-left: 10px;
+    content: '';
+    background: url('https://assets.fintecture.com/img/new-checkout/magento/virementmaitrise.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+    .checkout-index-index .fintecture-alert {
+        /* 
+        to avoid overlap with fintecture alerts 
+        cause by .opc-estimated-wrapper / margin: -21px -15px 15px;
+        20 + 21 = 41
+        */
+        margin-bottom: 41px; 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .checkout_block {
+        padding-left: 32px;
+    }
+    
+    .checkout_block p {
+        font-size: 13px;
+    }
+
+    #f-steps {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #f-steps::before {
+        top: 0;
+        left: 18px;
+        height: 100%;
+        width: 1px;
+    }
+
+    #f-steps .f-step-wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        max-width: initial;
+        text-align: left;
+        width: auto;
+    }
+
+    #f-steps .f-step-icon {
+        margin: 0;
+        flex-shrink: 0;
+    }
+}
