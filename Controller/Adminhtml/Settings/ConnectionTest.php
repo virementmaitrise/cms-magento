@@ -8,7 +8,7 @@ use Virementmaitrise\Payment\Gateway\Config\Config;
 use Virementmaitrise\Payment\Helper\Fintecture as FintectureHelper;
 use Virementmaitrise\Payment\Logger\Logger as FintectureLogger;
 use Virementmaitrise\Payment\Model\Environment;
-use VirementMaitrise\Util\Validation;
+use Fintecture\Util\Validation;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Config\ScopeConfigInterface;

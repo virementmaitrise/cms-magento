@@ -9,7 +9,7 @@ use Virementmaitrise\Payment\Gateway\HandlePayment;
 use Virementmaitrise\Payment\Gateway\HandleRefund;
 use Virementmaitrise\Payment\Helper\Fintecture as FintectureHelper;
 use Virementmaitrise\Payment\Logger\Logger as FintectureLogger;
-use VirementMaitrise\Util\Validation;
+use Fintecture\Util\Validation;
 use Magento\Framework\App\CsrfAwareActionInterface;
 use Magento\Framework\App\Request\Http;
 use Magento\Framework\App\Request\InvalidRequestException;

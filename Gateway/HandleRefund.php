@@ -6,7 +6,7 @@ use Virementmaitrise\Payment\Gateway\Config\Config;
 use Virementmaitrise\Payment\Gateway\Http\Sdk;
 use Virementmaitrise\Payment\Helper\Fintecture as FintectureHelper;
 use Virementmaitrise\Payment\Logger\Logger;
-use VirementMaitrise\Util\Crypto;
+use Fintecture\Util\Crypto;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Sales\Api\CreditmemoRepositoryInterface;
 use Magento\Sales\Api\Data\CreditmemoInterface;

@@ -2,12 +2,12 @@
 
 namespace Virementmaitrise\Payment\Gateway;
 
-use VirementMaitrise\Api\ApiResponse;
+use Fintecture\Api\ApiResponse;
 use Virementmaitrise\Payment\Gateway\Config\Config;
 use Virementmaitrise\Payment\Gateway\Http\Sdk;
 use Virementmaitrise\Payment\Helper\Fintecture as FintectureHelper;
 use Virementmaitrise\Payment\Logger\Logger;
-use VirementMaitrise\Util\Crypto;
+use Fintecture\Util\Crypto;
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Sales\Model\Order;
 
