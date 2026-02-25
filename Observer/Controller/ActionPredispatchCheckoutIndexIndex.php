@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Virementmaitrise\Payment\Observer\Controller;
 
-use VirementMaitrise\Config\Telemetry;
+use Fintecture\Config\Telemetry;
 use Virementmaitrise\Payment\Helper\Cookie as CookieHelper;
 use Virementmaitrise\Payment\Helper\Stats;
 use Magento\Checkout\Model\Session;
