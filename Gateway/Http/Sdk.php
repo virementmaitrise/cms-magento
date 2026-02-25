@@ -7,7 +7,7 @@ namespace Virementmaitrise\Payment\Gateway\Http;
 use Virementmaitrise\Payment\Gateway\Config\Config;
 use Virementmaitrise\Payment\Logger\Logger;
 use Virementmaitrise\Payment\Model\Cache\OperateCustomCache;
-use VirementMaitrise\PisClient;
+use Fintecture\PisClient;
 use Magento\Framework\Encryption\EncryptorInterface;
 use Symfony\Component\HttpClient\Psr18Client;
 
