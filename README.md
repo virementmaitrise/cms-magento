@@ -1,6 +1,6 @@
 # Virement Maitrisé module for Magento 2.4 & 2.3
 
-[![Latest Stable Version](http://poser.pugx.org/virementmaitrise/payment/v)](https://packagist.org/packages/virementmaitrise/payment) [![Total Downloads](http://poser.pugx.org/virementmaitrise/payment/downloads)](https://packagist.org/packages/virementmaitrise/payment) [![Monthly Downloads](http://poser.pugx.org/virementmaitrise/payment/d/monthly)](https://packagist.org/packages/virementmaitrise/payment) [![License](http://poser.pugx.org/virementmaitrise/payment/license)](https://packagist.org/packages/virementmaitrise/payment) [![PHP Version Require](http://poser.pugx.org/virementmaitrise/payment/require/php)](https://packagist.org/packages/virementmaitrise/payment)
+[![Latest Stable Version](http://poser.pugx.org/virement-maitrise/payment/v)](https://packagist.org/packages/virement-maitrise/payment) [![Total Downloads](http://poser.pugx.org/virement-maitrise/payment/downloads)](https://packagist.org/packages/virement-maitrise/payment) [![Monthly Downloads](http://poser.pugx.org/virement-maitrise/payment/d/monthly)](https://packagist.org/packages/virement-maitrise/payment) [![License](http://poser.pugx.org/virement-maitrise/payment/license)](https://packagist.org/packages/virement-maitrise/payment) [![PHP Version Require](http://poser.pugx.org/virement-maitrise/payment/require/php)](https://packagist.org/packages/virement-maitrise/payment)
 
 Société Générale provide a payment solution via bank transfer available at https://www.virementmaitrise.societegenerale.eu.
 
@@ -17,7 +17,7 @@ More information on [Magento documentation](https://devdocs.magento.com/guides/v
 
 You can install our plugin with Composer:
 
-`composer require virementmaitrise/payment`
+`composer require virement-maitrise/payment`
 
 ### Optional dependencies
 
