@@ -7,10 +7,6 @@ define([
         {
             type: 'virementmaitrise',
             component: 'Virementmaitrise_Payment/js/view/payment/method-renderer/fintecture-payment',
-        },
-        {
-            type: 'virementmaitrise_bnpl',
-            component: 'Virementmaitrise_Payment/js/view/payment/method-renderer/fintecture-bnpl',
         }
     );
     return Component.extend({});
