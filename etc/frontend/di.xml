@@ -6,7 +6,6 @@ ObjectManager/etc/config.xsd">
         <arguments>
             <argument name="configProviders" xsi:type="array">
                 <item name="virementmaitrise_config_provider" xsi:type="object">Virementmaitrise\Payment\Model\Ui\ConfigProvider</item>
-                <item name="virementmaitrise_bnpl_config_provider" xsi:type="object">Virementmaitrise\Payment\Model\Ui\BnplConfigProvider</item>
             </argument>
         </arguments>
     </type>
